@@ -837,7 +837,7 @@ Nevertheless we must take into consideration that when we use a ROM routine may 
 <p>Example (Texas VDP TMS9918A chip such as the one on MSX, Spectravideo, Memotech MTX, Sord M5, etc.)<br>
 Systems that use this chip have a special text color mode (<em>Mode 1</em>) where each character has as preassigned color. When using this text mode setting a character and its color is done by a single byte.</p>
 <p>Example (Commodore Vic 20)<br>
-The Commodore Vic 20 is a very special case because of its very limited RAM memory (total RAM: 5k, RAM available for the code: 3.5K) but it also comes with tricky ways to mitigate these limits:</p>
+The Commodore Vic 20 is a very special case because of its very limited RAM memory (total RAM: 5K, RAM available for the code: 3.5K) but it also comes with tricky ways to mitigate these limits:</p>
 <ul>
 <li>It also has color ram (1024 nibbles).</li>
 <li>A large part of the non-code RAM can be used by the code (buffers, auxiliary locations, etc.)</li>
